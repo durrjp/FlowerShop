@@ -5,14 +5,27 @@
     width: 660px
 }
 .singleRetailer {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    border: dashed 2px green;
+    margin:.5em;
+}
+.retailerInfo {
     text-align: left;
     margin: .5em;
-    padding: .5em;
-    background-color: white;
-    border: dashed 2px green
+    width: 50%
+}
+
+.nurseryFlowers {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    
 }
 
 .singleDistributor {
     font-size: .75em;
     font-style: italic;
 }
+

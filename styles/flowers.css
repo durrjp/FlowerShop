@@ -7,8 +7,11 @@
     text-align: left;
     margin: .5em;
     padding: .5em;
-    width: 100px
+    width: 100px;
+    height: 100px
 }
+
+
 
 .blue {
     background-color: lightskyblue;
