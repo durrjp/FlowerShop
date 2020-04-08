@@ -1,0 +1,31 @@
+.flowersContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.singleFlower {
+    text-align: left;
+    margin: .5em;
+    padding: .5em;
+    width: 100px
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.yellow {
+    background-color: rgb(245, 245, 171);
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.red {
+    background-color: rgb(251, 136, 136);
+}
+
+.green {
+    background-color: rgb(165, 238, 165)
+}

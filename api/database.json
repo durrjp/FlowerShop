@@ -1,0 +1,162 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Tulip",
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "commonName": "Sunflower",
+            "color": "yellow"
+        },
+        {
+            "id": 3,
+            "commonName": "Daisy",
+            "color": "white"
+        },
+        {
+            "id": 4,
+            "commonName": "Roses",
+            "color": "red"
+        },
+        {
+            "id": 5,
+            "commonName": "Carnation",
+            "color": "green"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Becky's Flowers",
+            "city": "Columbia",
+            "state": "SC",
+            "address": "111 Roses Way",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Sandy's Flowers",
+            "city": "Jacksonville",
+            "state": "FL",
+            "address": "928 Sunny Road",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Bob's Flowers",
+            "city": "Chicago",
+            "state": "IL",
+            "address": "619 Blossom Drive",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Lorenzo's Flowers",
+            "city": "Phoenix",
+            "state": "AZ",
+            "address": "302 Cactus Lane",
+            "distributorId": 4
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Amazon Flower Inc."
+        },
+        {
+            "id": 2,
+            "name": "Macintosh Plant Company"
+        },
+        {
+            "id": 3,
+            "name": "Microsoft Trees and Plants"
+        },
+        {
+            "id": 4,
+            "name": "Durr Flowers Tycoon"
+        }
+
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Momma's Plant Nursery"
+        },
+        {
+            "id": 1,
+            "name": "Dad's Plant Nursery"
+        },
+        {
+            "id": 1,
+            "name": "Momma's Momma Plant Nursery"
+        },
+        {
+            "id": 1,
+            "name": "Dad's Dad Plant Nursery"
+        },
+        {
+            "id": 1,
+            "name": "Brother's Plant Nursery"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 5
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 2
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 4
+        }
+    ],
+    "distributorNursery": [
+        {
+            "id": 1,
+            
+        }
+    ]
+}

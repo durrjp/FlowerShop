@@ -1,0 +1,6 @@
+@import "./flowers.css";
+@import "./retailers.css";
+
+.main {
+    justify-content: center;
+}
