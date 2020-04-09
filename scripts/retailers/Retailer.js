@@ -5,7 +5,10 @@ export const Retailer = (retailer, distributor, nurseries, flowers) => {
             <h3>${retailer.name}</h3>
             <p>${retailer.address} ${retailer.city}, ${retailer.state}</p>
             <p class="singleDistributor">Provided by - ${distributor.name}</p>
-            <p class="singleDistributor">Nurseries - ${nurseries[0].name}, ${nurseries[1].name}
+            <p class="singleDistributor">Nurseries -
+            ${nurseries.map(nursery => {
+                return nursery.name
+            }).join(", ")}
             </p>
         </div>
         <div class= "nurseryFlowers">
